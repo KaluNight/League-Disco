@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.kalunight</groupId>
+  <artifactId>league_disco</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>League-Disco</name>
+  
+  	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>21</source>
+					<target>21</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+  <dependencies>
+  		<dependency>
+		    <groupId>com.github.kalunight</groupId>
+		    <artifactId>R4J</artifactId>
+		    <version>8fde8083e4</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.github.zeroone3010</groupId>
+		    <artifactId>yetanotherhueapi</artifactId>
+		    <version>3.0.0-beta-2</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.4.14</version>
+		</dependency>
+	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+</project>
